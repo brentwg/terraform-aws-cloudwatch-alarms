@@ -20,7 +20,12 @@ namespace:           The namespace for the alarm's associated metric
                      See: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-namespaces.html
 
 comparison_operator: The namespace for the alarm's associated metric
-                     Either of the following is supported: GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold.
+                     Either of the following is supported: 
+                     
+                     GreaterThanOrEqualToThreshold
+                     GreaterThanThreshold
+                     LessThanThreshold 
+                     LessThanOrEqualToThreshold
 
 statistic:           The statistic to apply to the alarm's associated metric
                      Either of the following is supported: 
